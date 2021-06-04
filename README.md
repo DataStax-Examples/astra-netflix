@@ -1,21 +1,41 @@
-# 🎓 Netflix Clone using DataStax and GraphQL
+<!--- STARTEXCLUDE --->
+# Netflix Clone using DataStax and GraphQL
+*10 minutes, Beginner, [Start Building](https://github.com/DataStax-Examples/astra-netlfix#prerequisites)*
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Let's code a Netflix Clone with GraphQL Pagination! 
+<!--- ENDEXCLUDE --->
 
-TO DO: remove unneeded dependencies from package.json
+![image](https://raw.githubusercontent.com/DataStax-Examples/sample-app-template/master/screenshots/astra-sample-app-default.png)
 
-## Table of content
+## Objectives
+* Build a Netflix clone using GraphQL
+  
+## How this works
+Follow along with the walkthrough video: [https://www.youtube.com/watch?v=g8COh40v2jU](https://www.youtube.com/watch?v=g8COh40v2jU)
 
-1. [Prerequisites](#1-prerequisites)
-2. [Create Astra Instance](#2-create-astra-instance)
-3. [Create a security token](#3-create-a-security-token)
-4. [Create table **genre** with GraphQL](#4-create-table-genre-with-graphql)
-5. [Insert data in **genre**  with GraphQL](#5-insert-data-in-the-table-with-graphql)
-6. [Retrieve values of **genre** table](#6-retrieving-list-of-values)
-7. [Create **movie** table](#7-creating-a-movies-table)
-8. [Insert values in **movie** table](#8-insert-values-in-movie-table)
-9. [Retrieve values from **movie** table](#9-retrieve-values-from-movie-tables)
-10. [Start the Project](#10-start-the-project)
+## Get Started
+To build and play with this app, follow the build instructions that are located here: [https://github.com/DataStax-Examples/astra-netlfix#prerequisites](https://github.com/DataStax-Examples/astra-netlfix#prerequisites)
+
+<!--- STARTEXCLUDE --->
+
+## Table of contents
+
+- [Netflix Clone using DataStax and GraphQL](#netflix-clone-using-datastax-and-graphql)
+  - [Objectives](#objectives)
+  - [How this works](#how-this-works)
+  - [Get Started](#get-started)
+  - [Table of contents](#table-of-contents)
+  - [1. Prerequisites](#1-prerequisites)
+  - [2. Create Astra Instance](#2-create-astra-instance)
+  - [3. Create a security token](#3-create-a-security-token)
+  - [4. Create table **genre** with GraphQL](#4-create-table-genre-with-graphql)
+  - [5. Insert data in the Table with GraphQL](#5-insert-data-in-the-table-with-graphql)
+  - [6. Retrieving list of values](#6-retrieving-list-of-values)
+  - [7. Creating a Movies Table](#7-creating-a-movies-table)
+  - [8. Insert Values in Movie table](#8-insert-values-in-movie-table)
+  - [9. Retrieve values from Movie tables](#9-retrieve-values-from-movie-tables)
+  - [10. Start the project](#10-start-the-project)
+  - [TADA](#tada)
 
 
 ## 1. Prerequisites
@@ -325,3 +345,4 @@ netlify dev
 ## TADA
 
 ![image](img/ui.png?raw=true)
+<!--- ENDEXCLUDE --->
