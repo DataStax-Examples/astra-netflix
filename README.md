@@ -1,5 +1,5 @@
 <!--- STARTEXCLUDE --->
-# Netflix Clone using DataStax and GraphQL
+# Netflix Clone using Astra DB and GraphQL
 *10 minutes, Beginner, [Start Building](https://github.com/DataStax-Examples/astra-netlfix#prerequisites)*
 
 Let's code a Netflix Clone with GraphQL Pagination! 
@@ -20,13 +20,13 @@ To build and play with this app, follow the build instructions that are located 
 
 ## Table of contents
 
-- [Netflix Clone using DataStax and GraphQL](#netflix-clone-using-datastax-and-graphql)
+- [Netflix Clone using Astra DB and GraphQL](#netflix-clone-using-astra-db-and-graphql)
   - [Objectives](#objectives)
   - [How this works](#how-this-works)
   - [Get Started](#get-started)
   - [Table of contents](#table-of-contents)
   - [1. Prerequisites](#1-prerequisites)
-  - [2. Create Astra Instance](#2-create-astra-instance)
+  - [2. Create an Astra DB Instance](#2-create-an-astra-db-instance)
   - [3. Create a security token](#3-create-a-security-token)
   - [4. Create table **genre** with GraphQL](#4-create-table-genre-with-graphql)
   - [5. Insert data in the Table with GraphQL](#5-insert-data-in-the-table-with-graphql)
@@ -45,7 +45,7 @@ To build and play with this app, follow the build instructions that are located 
 npm install netlify-cli -g
 ```
 
-## 2. Create Astra Instance
+## 2. Create an Astra DB Instance
 
 > *When creating your instance use the promotion code **ANIA200** to get 200$ of free credit allowing you about 30 million writes + 30 Million reads  + 50GB a month of monthly storage!!*
 
@@ -64,7 +64,7 @@ Follow this [guide](https://docs.datastax.com/en/astra/docs/creating-your-astra-
 
 You will find below which values to enter for each field.
 
-- **For the database name** - `code_with_ania_kubow.` While Astra allows you to fill in these fields with values of your own choosing, please follow our recommendations to ensure the application runs properly.
+- **For the database name** - `code_with_ania_kubow.` While Astra DB allows you to fill in these fields with values of your own choosing, please follow our recommendations to ensure the application runs properly.
 
 - **For the keyspace name** - `netflix`. It's really important that you use the name "free" for the code to work.
 
