@@ -1,6 +1,6 @@
 <!--- STARTEXCLUDE --->
 # Netflix Clone using Astra DB and GraphQL
-*10 minutes, Beginner, [Start Building](https://github.com/DataStax-Examples/astra-netlfix#prerequisites)*
+*10 minutes, Beginner, [Start Building](https://github.com/DataStax-Examples/astra-netflix#prerequisites)*
 
 Let's code a Netflix Clone with GraphQL Pagination! 
 <!--- ENDEXCLUDE --->
@@ -14,7 +14,7 @@ Let's code a Netflix Clone with GraphQL Pagination!
 Follow along with the walkthrough video: [https://www.youtube.com/watch?v=g8COh40v2jU](https://www.youtube.com/watch?v=g8COh40v2jU)
 
 ## Get Started
-To build and play with this app, follow the build instructions that are located here: [https://github.com/DataStax-Examples/astra-netlfix#prerequisites](https://github.com/DataStax-Examples/astra-netlfix#prerequisites)
+To build and play with this app, follow the build instructions that are located here: [https://github.com/DataStax-Examples/astra-netflix#prerequisites](https://github.com/DataStax-Examples/astra-netflix#prerequisites)
 
 <!--- STARTEXCLUDE --->
 
