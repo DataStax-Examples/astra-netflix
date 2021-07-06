@@ -90,7 +90,7 @@ The status will change to `Active` when the database is ready, this will only ta
 Copy the token value (eg `AstraCS:KDfdKeNREyWQvDpDrBqwBsUB:ec80667c....`) in your clipboard and save the CSV this value would not be provided afterward.
 
 **👁️ Expected output**
-![image](pics/astra-token.png?raw=true)
+![image](https://raw.githubusercontent.com/DataStax-Examples/astra-netflix/master/img/astra-create-token.gif)
 
 [🏠 Back to Table of Contents](#table-of-content)
 
