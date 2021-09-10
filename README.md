@@ -105,12 +105,12 @@ Copy the token value (eg `AstraCS:KDfdKeNREyWQvDpDrBqwBsUB:ec80667c....`) in you
 4. Clik link to you playground.
 
 *as show on the picture below*
-![image](img/open-playground.png?raw=true)
+![image](https://raw.githubusercontent.com/DataStax-Examples/astra-netflix/master/img/open-playground.png?raw=true)
 
 
 ✅ Populate HTTP HEADER variable `x-cassandra-token` on the bottom of the page with your token as shown below
 
-![image](img/graphql-playground.png?raw=true)
+![image](https://raw.githubusercontent.com/DataStax-Examples/astra-netflix/master/img/graphql-playground.png?raw=true)
 
 ✅ In GraphQL Playground, create a table with the following mutation, making sure to replace `netflix`:
 ```yaml
@@ -137,7 +137,7 @@ mutation {
 
 ✅ Populate HTTP HEADER variable `x-cassandra-token` on the bottom of the page with your token as shown below (again !! yes this is not the same tab)
 
-![image](img/graphql-playground-2.png?raw=true)
+![image](https://raw.githubusercontent.com/DataStax-Examples/astra-netflix/master/img/graphql-playground-2.png?raw=true)
 
 ✅ In GraphQL Playground,populate the `reference_list` table with the following values:
 
@@ -208,7 +208,7 @@ query getAllGenre {
 ```
 
 *👁️ Expected output*
-![image](img/graphql-playground-3.png?raw=true)
+![image](https://raw.githubusercontent.com/DataStax-Examples/astra-netflix/master/img/graphql-playground-3.png?raw=true)
 
 [🏠 Back to Table of Contents](#table-of-content)
 
@@ -239,7 +239,7 @@ mutation {
 ```
 
 *👁️ Expected output*
-![image](img/graphql-playground-4.png?raw=true)
+![image](https://raw.githubusercontent.com/DataStax-Examples/astra-netflix/master/img/graphql-playground-4.png?raw=true)
 
 [🏠 Back to Table of Contents](#table-of-content)
 
@@ -294,7 +294,7 @@ mutation insertMovies {
 > ℹ️ To get more movie data check the files in the `data` folder.
 
 *👁️ Expected output*
-![image](img/graphql-playground-5.png?raw=true)
+![image](https://raw.githubusercontent.com/DataStax-Examples/astra-netflix/master/img/graphql-playground-5.png?raw=true)
 
 [🏠 Back to Table of Contents](#table-of-content)
 
@@ -319,7 +319,7 @@ query getMovieAction {
 ```
 
 *👁️ Expected output*
-![image](img/graphql-playground-6.png?raw=true)
+![image](https://raw.githubusercontent.com/DataStax-Examples/astra-netflix/master/img/graphql-playground-6.png?raw=true)
 
 
 ## 10. Start the project
@@ -344,5 +344,5 @@ netlify dev
 
 ## TADA
 
-![image](img/ui.png?raw=true)
+![image](https://raw.githubusercontent.com/DataStax-Examples/astra-netflix/master/img/ui.png?raw=true)
 <!--- ENDEXCLUDE --->
