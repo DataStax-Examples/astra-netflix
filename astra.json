@@ -6,5 +6,6 @@
   "githubUrl": "https://github.com/DataStax-Examples/astra-netflix",
   "tags": [{ "name": "javascript" }, { "name": "GraphQL" }],
   "category": "apps",
-  "priority": 1
+  "priority": 1,
+  "heroImage": "https://raw.githubusercontent.com/DataStax-Examples/astra-netflix/master/hero.png"
 }

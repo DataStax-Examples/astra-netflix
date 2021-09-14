@@ -5,7 +5,7 @@
 Let's code a Netflix Clone with GraphQL Pagination! 
 <!--- ENDEXCLUDE --->
 
-![image](https://raw.githubusercontent.com/DataStax-Examples/sample-app-template/master/screenshots/astra-sample-app-default.png)
+![image](https://raw.githubusercontent.com/DataStax-Examples/astra-netflix/master/hero.png)
 
 ## Objectives
 * Build a Netflix clone using GraphQL
