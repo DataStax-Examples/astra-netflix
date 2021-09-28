@@ -59,7 +59,7 @@ const sendGql = async (files, endpoint) => {
       body: JSON.stringify({ query: existsQuery }),
     });
     const responseJson = await response.json();
-    if (responseJson.data.reference_list.values.length) {
+    if (responseJson.data.sag_reference_list.values.length) {
       console.log("Data already loaded");
       process.exit();
     }
