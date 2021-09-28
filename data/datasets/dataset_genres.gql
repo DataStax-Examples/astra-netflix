@@ -1,0 +1,87 @@
+mutation insertGenres {
+  action: insertsag_reference_list(value: { label: "genre", value: "Action" }) {
+    value {
+      value
+    }
+  }
+  anime: insertsag_reference_list(value: { label: "genre", value: "Anime" }) {
+    value {
+      value
+    }
+  }
+  award: insertsag_reference_list(
+    value: { label: "genre", value: "Award-Winning" }
+  ) {
+    value {
+      value
+    }
+  }
+  children: insertsag_reference_list(
+    value: { label: "genre", value: "Children & Family" }
+  ) {
+    value {
+      value
+    }
+  }
+  comedies: insertsag_reference_list(value: { label: "genre", value: "Comedies" }) {
+    value {
+      value
+    }
+  }
+  documentaries: insertsag_reference_list(
+    value: { label: "genre", value: "Documentaries" }
+  ) {
+    value {
+      value
+    }
+  }
+  drama: insertsag_reference_list(value: { label: "genre", value: "Dramas" }) {
+    value {
+      value
+    }
+  }
+  fantasy: insertsag_reference_list(value: { label: "genre", value: "Fantasy" }) {
+    value {
+      value
+    }
+  }
+  french: insertsag_reference_list(value: { label: "genre", value: "French" }) {
+    value {
+      value
+    }
+  }
+  horror: insertsag_reference_list(value: { label: "genre", value: "Horror" }) {
+    value {
+      value
+    }
+  }
+  independent: insertsag_reference_list(
+    value: { label: "genre", value: "Independent" }
+  ) {
+    value {
+      value
+    }
+  }
+  music: insertsag_reference_list(
+    value: { label: "genre", value: "Music & Musicals" }
+  ) {
+    value {
+      value
+    }
+  }
+  romance: insertsag_reference_list(value: { label: "genre", value: "Romance" }) {
+    value {
+      value
+    }
+  }
+  scifi: insertsag_reference_list(value: { label: "genre", value: "Sci-Fi" }) {
+    value {
+      value
+    }
+  }
+  thriller: insertsag_reference_list(value: { label: "genre", value: "Thriller" }) {
+    value {
+      value
+    }
+  }
+}

@@ -1,0 +1,10 @@
+tasks:
+  - name: astra-netflix
+    before: |
+      npm install
+    command: |
+      gp open README.md
+ports:
+  - port: 8888
+    onOpen: open-browser
+    visibility: public

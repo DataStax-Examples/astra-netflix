@@ -11,12 +11,13 @@ const Section = ({ genre }) => {
       body: JSON.stringify({ genre: genre, pageState: pageState }),
     })
     const responseBody = await response.json()
-    setMovies(responseBody.data.movies_by_genre.values)
-    setPageState(responseBody.data.movies_by_genre.pageState)
+    setMovies(responseBody.data.sag_movies_by_genre.values)
+    setPageState(responseBody.data.sag_movies_by_genre.pageState)
   }
 
   useEffect(() => {
     fetchData()
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 
   return (
