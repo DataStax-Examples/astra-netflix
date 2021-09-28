@@ -22,7 +22,7 @@ Let's code a Netflix Clone with GraphQL Pagination!
 * Build a Netflix clone using GraphQL
   
 ## How this works
-Opening and running the app will populate the database you specify in your `.env` file with the required data, allowing you to explore the telco app. You can view a demo of the running app [here](https://sag-astra-netflix.netlify.app).
+Opening and running the app will populate the database you specify in your `.env` file with the required data, allowing you to explore the astra-netflix app. You can view a demo of the running app [here](https://sag-astra-netflix.netlify.app).
 
 Follow along with Ania's [walkthrough video](https://www.youtube.com/watch?v=g8COh40v2jU). 
 
