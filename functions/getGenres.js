@@ -1,12 +1,13 @@
-const fetch = require('node-fetch')
+const fetch = require("node-fetch");
 
 exports.handler = async function (event) {
-  const limit = JSON.parse(event.body)
+  const limit = JSON.parse(event.body);
 
-  const url = process.env.ASTRA_GRAPHQL_ENDPOINT
+  const url = `https://${process.env.ASTRA_DB_ID}-${process.env.ASTRA_DB_REGION}.apps.astra.datastax.com/api/graphql/${process.env.ASTRA_DB_KEYSPACE}`;
+
   const query = `
     query getAllGenres {
-      reference_list (
+      sag_reference_list (
         value: { label: "genre"},
         options: { limit: ${JSON.stringify(limit)} }
       ) {
@@ -15,27 +16,27 @@ exports.handler = async function (event) {
         }
       }
     }
-  `  
+  `;
   const response = await fetch(url, {
-    method: 'POST',
+    method: "POST",
     headers: {
       "Content-Type": "application/json",
-      "x-cassandra-token": process.env.ASTRA_DB_APPLICATION_TOKEN
+      "x-cassandra-token": process.env.ASTRA_DB_APPLICATION_TOKEN,
     },
-    body: JSON.stringify({ query })
-  })
+    body: JSON.stringify({ query }),
+  });
 
   try {
-    const responseBody = await response.json()
+    const responseBody = await response.json();
     return {
       statusCode: 200,
-      body: JSON.stringify(responseBody)
-    }
+      body: JSON.stringify(responseBody),
+    };
   } catch (e) {
-    console.log(e)
+    console.log(e);
     return {
       statusCode: 500,
-      body: JSON.stringify(e)
-    }
+      body: JSON.stringify(e),
+    };
   }
-}
+};

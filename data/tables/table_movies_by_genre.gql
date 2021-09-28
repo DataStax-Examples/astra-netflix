@@ -1,0 +1,17 @@
+mutation {
+  sag_movies_by_genre: createTable(
+    keyspaceName: "sag_netflix"
+    tableName: "sag_movies_by_genre"
+    ifNotExists: true
+    partitionKeys: [{ name: "genre", type: { basic: TEXT } }]
+    clusteringKeys: [
+      { name: "year", type: { basic: INT }, order: "DESC" }
+      { name: "title", type: { basic: TEXT }, order: "ASC" }
+    ]
+    values: [
+      { name: "synopsis", type: { basic: TEXT } }
+      { name: "duration", type: { basic: INT } }
+      { name: "thumbnail", type: { basic: TEXT } }
+    ]
+  )
+}

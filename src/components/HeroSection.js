@@ -10,7 +10,7 @@ const HeroSection = () => {
       body: JSON.stringify({ genre: "Sci-Fi", pageState: pageState }),
     })
     const responseBody = await response.json()
-    const movies = responseBody.data.movies_by_genre.values
+    const movies = responseBody.data.sag_movies_by_genre.values
     setMovie(movies[Math.floor(Math.random() * movies.length)])
   }
 
