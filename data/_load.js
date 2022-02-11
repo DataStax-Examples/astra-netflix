@@ -32,13 +32,14 @@ const datasetFiles = loadFilesSync(__dirname + "/datasets/**.gql");
 const sendGql = async (files, endpoint) => {
   try {
     for (let i = 0, ilen = files.length; i < ilen; i++) {
+      const query = files[i].loc ? files[i].loc.source.body : files[i];
       const response = await fetch(endpoint, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
           "x-cassandra-token": process.env.ASTRA_DB_APPLICATION_TOKEN,
         },
-        body: JSON.stringify({ query: files[i] }),
+        body: JSON.stringify({ query }),
       });
       const responseJson = await response.json();
       console.log(responseJson);
